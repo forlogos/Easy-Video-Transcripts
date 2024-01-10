@@ -1,0 +1,81 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-easy-video-transcripts-evt-block {
+  padding: 2px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.wp-block-easy-video-transcripts-evt-block.evtlayout-vtop, .wp-block-easy-video-transcripts-evt-block.evtlayout-fullpage {
+  display: block;
+}
+
+.wp-block-easy-video-transcripts-evt-block > div {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.wp-block-easy-video-transcripts-evt-block.evtlayout-vleft > div {
+  width: 50%;
+}
+
+.wp-block-easy-video-transcripts-evt-block .vidcol .wp-block-embed__wrapper {
+  position: relative;
+}
+
+.wp-block-easy-video-transcripts-evt-block .vidcol .wp-block-embed__wrapper:before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+
+.wp-block-easy-video-transcripts-evt-block .vidcol iframe {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.wp-block-easy-video-transcripts-evt-block.evtlayout-vleft .tscol {
+  overflow-y: scroll;
+  position: relative;
+}
+
+.wp-block-easy-video-transcripts-evt-block.evtlayout-vleft .tscol p {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.wp-block-easy-video-transcripts-evt-block.evtlayout-vleft .tscol .evt-ts-wrap {
+  position: absolute;
+  width: 100%;
+}
+
+.wp-block-easy-video-transcripts-evt-block.evtlayout-vtop .tscol {
+  height: 150px;
+  overflow-y: scroll;
+}
+
+@media (max-width: 600px) {
+  .wp-block-easy-video-transcripts-evt-block.evtlayout-vleft > div {
+    width: 100%;
+  }
+  .wp-block-easy-video-transcripts-evt-block:not(.evtlayout-fullpage) .tscol {
+    height: 150px;
+    overflow-y: scroll;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

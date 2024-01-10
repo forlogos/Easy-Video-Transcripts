@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "easy-video-transcripts/evt-block",
+	"version": "0.1.0",
+	"title": "Easy Video Transcripts",
+	"category": "text",
+	"icon": "smiley",
+	"description": "A block to show Easy Video Transcripts",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "easy-video-transcripts",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"attributes": {
+		"videoID": {
+			"type": "number"
+		},
+		"layout": {
+			"type": "string"
+		}
+	}
+}
